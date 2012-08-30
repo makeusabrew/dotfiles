@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/etc/apache2/sites-available'
 let g:netrw_dirhist_2='/home/nick/code/node/dummygource-origin.git/hooks'
 let g:netrw_dirhist_3='/home/nick/dotfiles/vim/ftdetect'
 let g:netrw_dirhist_4='/home/nick/.vim'
-let g:netrw_dirhist_5='/var/www/nick/bootbox/demo'
+let g:netrw_dirhist_5='/var/www/nick/gea/apps/users/models'
+let g:netrw_dirhist_6='/home/nick'
+let g:netrw_dirhist_7='/var/www/nick/bootbox/tests/vendor/jasmine'
+let g:netrw_dirhist_8='/var/www/nick/tradesmob/testing/zombie/test/lib'
