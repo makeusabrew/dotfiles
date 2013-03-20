@@ -4,14 +4,17 @@
 :set expandtab
 :set number
 :set ruler
-:set cindent
 :set smartindent
 :set autoindent
-:set cinkeys=0{0}:0#!^F
 :set nowrap
 :set hlsearch
 :set wildmenu
 :set wildmode=list:longest
+
+set scrolloff=3
+set sidescrolloff=5
+
+syntax enable
 
 :map <Tab> <C-w>w
 
