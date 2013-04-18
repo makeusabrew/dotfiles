@@ -19,3 +19,5 @@ syntax enable
 :map <Tab> <C-w>w
 
 au BufRead,BufNewFile *.ejs set syntax=html
+
+execute pathogen#infect()
