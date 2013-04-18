@@ -21,3 +21,7 @@ syntax enable
 au BufRead,BufNewFile *.ejs set syntax=html
 
 execute pathogen#infect()
+
+if filereadable($HOME.'/.vim/.vimrc.local')
+  source ~/.vim/.vimrc.local
+endif
