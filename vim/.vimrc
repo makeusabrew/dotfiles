@@ -25,3 +25,5 @@ execute pathogen#infect()
 if filereadable($HOME.'/.vim/.vimrc.local')
   source ~/.vim/.vimrc.local
 endif
+
+let g:syntastic_javascript_checkers=['jshint']
