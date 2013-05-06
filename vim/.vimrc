@@ -13,6 +13,7 @@ set wildmenu
 set wildmode=list:longest
 set scrolloff=3
 set sidescrolloff=5
+set title
 
 " not always on by default
 syntax enable
