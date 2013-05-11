@@ -27,7 +27,12 @@ filetype plugin indent on
 
 " any local overrides just before pathogen
 if filereadable($HOME.'/.vim/.vimrc.local')
-  source ~/.vim/.vimrc.local
+    source ~/.vim/.vimrc.local
+endif
+
+" gnome terminal isn't good at advertising its colour capabilities
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
 endif
 
 execute pathogen#infect()
