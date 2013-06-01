@@ -22,6 +22,8 @@ syntax enable
 
 let g:syntastic_javascript_checkers=['jshint']
 
+let coffee_compile_vert = 1
+
 " required for CoffeeScript goodness
 filetype plugin indent on
 
