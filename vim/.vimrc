@@ -38,3 +38,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 execute pathogen#infect()
+
+:au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+:au InsertLeave * match ExtraWhitespace /\s\+$/
+:highlight ExtraWhitespace ctermbg=red guibg=red
