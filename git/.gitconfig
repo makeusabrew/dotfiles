@@ -5,3 +5,8 @@
 	ui = auto
 [push]
     default = current
+
+[alias]
+    prepare-merge = merge --no-ff --no-commit master
+    review-merge  = diff HEAD
+    preview-merge = diff release master
