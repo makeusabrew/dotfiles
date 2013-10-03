@@ -13,7 +13,7 @@ ZSH_THEME="random"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias resource="source ~/.zshrc"
+alias rezsh="source ~/.zshrc"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
