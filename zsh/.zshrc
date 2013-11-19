@@ -16,6 +16,15 @@ ZSH_THEME="random"
 
 alias rezsh="source ~/.zshrc"
 
+alias tma='tmux attach -d -t'
+alias git-tmux='tmux new -s $(basename $(pwd))'
+
+
+# docker helpers
+#alias -g remove-containers="rm `docker ps -a -q`"
+#alias -g kill-containers="kill `docker ps -q`"
+#alias -g stop-containers="stop `docker ps -q`"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -34,7 +43,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras zsh-syntax-highlighting coffee vagrant web-search docker)
+plugins=(git git-extras zsh-syntax-highlighting coffee vagrant web-search docker grunt)
 
 source $ZSH/oh-my-zsh.sh
 

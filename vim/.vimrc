@@ -33,9 +33,9 @@ if filereadable($HOME.'/.vim/.vimrc.local')
 endif
 
 " gnome terminal isn't good at advertising its colour capabilities
-if $COLORTERM == 'gnome-terminal'
+" if $COLORTERM == 'gnome-terminal'
     set t_Co=256
-endif
+" endif
 
 execute pathogen#infect()
 
