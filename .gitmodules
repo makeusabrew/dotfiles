@@ -37,3 +37,6 @@
 [submodule "vim/bundle/dockerfile"]
 	path = vim/bundle/dockerfile
 	url = https://github.com/honza/dockerfile.vim.git
+[submodule "oh-my-zsh-plugins/zsh-syntax-highlighting"]
+	path = oh-my-zsh-plugins/zsh-syntax-highlighting
+	url = git://github.com/zsh-users/zsh-syntax-highlighting.git
