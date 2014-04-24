@@ -46,7 +46,7 @@ setopt nocorrectall
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras zsh-syntax-highlighting coffee vagrant web-search docker grunt)
+plugins=(git git-extras zsh-syntax-highlighting coffee vagrant web-search docker grunt git-flow)
 
 source $ZSH/oh-my-zsh.sh
 
