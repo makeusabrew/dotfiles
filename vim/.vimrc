@@ -18,7 +18,7 @@ set title
 " not always on by default
 syntax enable
 
-:map <Tab> <C-w>w
+map <Tab> <C-w>w
 
 let g:syntastic_javascript_checkers=['jshint']
 
@@ -39,6 +39,6 @@ endif
 
 execute pathogen#infect()
 
-:au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-:au InsertLeave * match ExtraWhitespace /\s\+$/
-:highlight ExtraWhitespace ctermbg=red guibg=red
+au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhitespace /\s\+$/
+highlight ExtraWhitespace ctermbg=red guibg=red

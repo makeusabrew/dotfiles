@@ -40,3 +40,6 @@
 [submodule "oh-my-zsh-plugins/zsh-syntax-highlighting"]
 	path = oh-my-zsh-plugins/zsh-syntax-highlighting
 	url = git://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "vim/bundle/vim-nerdtree-tabs"]
+	path = vim/bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
