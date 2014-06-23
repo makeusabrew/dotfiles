@@ -42,3 +42,6 @@ execute pathogen#infect()
 au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 au InsertLeave * match ExtraWhitespace /\s\+$/
 highlight ExtraWhitespace ctermbg=red guibg=red
+
+let mapleader = ","
+nnoremap <Leader>t :NERDTreeTabsToggle<CR>
