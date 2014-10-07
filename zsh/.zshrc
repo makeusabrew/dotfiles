@@ -5,11 +5,11 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="random"
+#ZSH_THEME="random"
 #ZSH_THEME="itchy"
 #ZSH_THEME="norm"
 #ZSH_THEME="pygmalion"
-
+ZSH_THEME="dieter"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -19,6 +19,9 @@ alias rezsh="source ~/.zshrc"
 alias tma='tmux attach -d -t'
 alias git-tmux='tmux new -s $(basename $(pwd))'
 
+alias deckdev='~/code/node/node-decking/bin/decking'
+
+setopt interactivecomments
 
 # docker helpers
 #alias -g remove-containers="rm `docker ps -a -q`"
