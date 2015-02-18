@@ -45,4 +45,4 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 
 let mapleader = ","
 nnoremap <Leader>t :NERDTreeTabsToggle<CR>
-autocmd BufRead,BufNewFile *.coffee,*.html,*.js,*.scss setlocal sw=2 sts=2 et
+autocmd BufRead,BufNewFile *.coffee,*.html,*.js,*.jsx,*.scss setlocal sw=2 sts=2 et
