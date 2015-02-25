@@ -20,7 +20,7 @@ syntax enable
 
 map <Tab> <C-w>w
 
-let g:syntastic_javascript_checkers=['jshint']
+let g:syntastic_javascript_checkers=['jsxhint']
 
 let coffee_compile_vert = 1
 
