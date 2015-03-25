@@ -22,6 +22,8 @@ map <Tab> <C-w>w
 
 let g:syntastic_javascript_checkers=['jsxhint']
 
+let g:NERDTreeWinSize = 40
+
 let coffee_compile_vert = 1
 
 " required for CoffeeScript goodness
@@ -46,3 +48,5 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 let mapleader = ","
 nnoremap <Leader>t :NERDTreeTabsToggle<CR>
 autocmd BufRead,BufNewFile *.coffee,*.html,*.js,*.jsx,*.scss setlocal sw=2 sts=2 et
+imap jk <Esc>
+nnoremap <Leader>r :RevealBookmark
