@@ -62,6 +62,11 @@ export PATH=$PATH:$HOME/bin
 
 export EDITOR=vim
 
+# mac only
+export DOCKER_TLS_VERIFY=1
+export DOCKER_CERT_PATH=/Users/np/.boot2docker/certs/boot2docker-vm
+export DOCKER_HOST=tcp://192.168.59.103:2376
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 cdpath=($HOME/code $HOME/code/web $HOME/code/node $HOME/code/go $HOME .)

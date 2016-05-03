@@ -1,7 +1,7 @@
 set nocompatible
-set softtabstop=4
-set shiftwidth=4
-set tabstop=4
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
 set expandtab
 set number
 set ruler
@@ -14,6 +14,7 @@ set wildmode=list:longest
 set scrolloff=3
 set sidescrolloff=5
 set title
+set updatetime=1000
 
 " not always on by default
 syntax enable
@@ -22,7 +23,14 @@ map <Tab> <C-w>w
 
 let g:syntastic_javascript_checkers=['jsxhint']
 
+let g:airline#extensions#tabline#enabled = 1
+
 let coffee_compile_vert = 1
+
+let NERDTreeShowLineNumbers=1
+let NERDTreeWinSize=45
+
+let g:gitgutter_sign_column_always = 1
 
 " required for CoffeeScript goodness
 filetype plugin indent on
@@ -46,3 +54,6 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 let mapleader = ","
 nnoremap <Leader>t :NERDTreeTabsToggle<CR>
 autocmd BufRead,BufNewFile *.coffee,*.html,*.js,*.jsx,*.scss setlocal sw=2 sts=2 et
+autocmd BufRead,BufNewFile *.php setlocal sw=2 sts=2 et
+
+colorscheme molokai
