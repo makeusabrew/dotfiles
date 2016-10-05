@@ -61,3 +61,6 @@
 [submodule "vim/bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "vim/bundle/logstash"]
+	path = vim/bundle/logstash
+	url = https://github.com/robbles/logstash.vim

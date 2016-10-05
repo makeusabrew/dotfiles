@@ -24,6 +24,7 @@ map <Tab> <C-w>w
 let g:syntastic_javascript_checkers=['jsxhint']
 
 let g:airline#extensions#tabline#enabled = 1
+let g:NERDTreeWinSize = 40
 
 let coffee_compile_vert = 1
 
@@ -57,3 +58,5 @@ autocmd BufRead,BufNewFile *.coffee,*.html,*.js,*.jsx,*.scss setlocal sw=2 sts=2
 autocmd BufRead,BufNewFile *.php setlocal sw=2 sts=2 et
 
 colorscheme molokai
+imap jk <Esc>
+nnoremap <Leader>r :RevealBookmark
