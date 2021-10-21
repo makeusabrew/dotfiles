@@ -21,7 +21,8 @@ syntax enable
 
 map <Tab> <C-w>w
 
-let g:syntastic_javascript_checkers=['jsxhint']
+let g:syntastic_javascript_checkers = ['eslint']
+" let g:syntastic_javascript_eslint_exec = 'eslint_d'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:NERDTreeWinSize = 40
@@ -32,6 +33,7 @@ let NERDTreeShowLineNumbers=1
 let NERDTreeWinSize=45
 
 let g:gitgutter_sign_column_always = 1
+let g:jsx_ext_required = 0
 
 " required for CoffeeScript goodness
 filetype plugin indent on
@@ -56,6 +58,8 @@ let mapleader = ","
 nnoremap <Leader>t :NERDTreeTabsToggle<CR>
 autocmd BufRead,BufNewFile *.coffee,*.html,*.js,*.jsx,*.scss setlocal sw=2 sts=2 et
 autocmd BufRead,BufNewFile *.php setlocal sw=2 sts=2 et
+
+autocmd BufRead,BufNewFile /Users/npa30/code/*.js setlocal sw=4 sts=4 et
 
 colorscheme molokai
 imap jk <Esc>
